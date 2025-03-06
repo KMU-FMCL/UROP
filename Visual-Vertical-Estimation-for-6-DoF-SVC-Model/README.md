@@ -35,16 +35,33 @@ https://www.researchgate.net/publication/358703507
 
 ## Python packages request
 
+### Recommends(uv)
 ```bash
-import matplotlib.pyplot as plt
-import cv2
-import numpy as np
-import pandas as pd
-import sys,getopt
-import datetime
+
+<details>
+  <summary>macOS & Linux</summary>
+  ```bash
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  ```
+</details>
+
+<details>
+  <summary>Windows</summary>
+  ```bash
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+  ```
+</details>
+
+```bash
+uv pip instal matplotlib opencv-python 'numpy<2.0.0' pandas
+```
+
+```bash
+source .venv/bin/activate
 ```
 
 ## Usage
+
 ```bash
 $ python VV_for_SVC.py -i <inputfile> --camera <True/False> --camera_port <port number> --scale <1>
 ```
