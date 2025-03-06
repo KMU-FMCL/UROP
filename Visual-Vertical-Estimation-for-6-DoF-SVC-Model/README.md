@@ -58,6 +58,8 @@ https://www.researchgate.net/publication/358703507
 ## Usage
 
 ```bash
+uv venv
+
 uv pip instal matplotlib opencv-python 'numpy<2.0.0' pandas
 ```
 
