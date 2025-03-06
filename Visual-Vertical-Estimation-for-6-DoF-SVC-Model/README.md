@@ -36,20 +36,23 @@ https://www.researchgate.net/publication/358703507
 ## Python packages request
 
 ### Recommends(uv)
-```bash
 
 <details>
   <summary>macOS & Linux</summary>
+
   ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh
   ```
+
 </details>
 
 <details>
   <summary>Windows</summary>
+
   ```bash
   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
   ```
+
 </details>
 
 ```bash
