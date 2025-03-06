@@ -55,6 +55,8 @@ https://www.researchgate.net/publication/358703507
 
 </details>
 
+## Usage
+
 ```bash
 uv pip instal matplotlib opencv-python 'numpy<2.0.0' pandas
 ```
@@ -62,8 +64,6 @@ uv pip instal matplotlib opencv-python 'numpy<2.0.0' pandas
 ```bash
 source .venv/bin/activate
 ```
-
-## Usage
 
 ```bash
 $ python VV_for_SVC.py -i <inputfile> --camera <True/False> --camera_port <port number> --scale <1>
